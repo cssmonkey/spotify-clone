@@ -1,0 +1,349 @@
+{
+  "buttonPrimary": {
+    "background": {
+      "pressed": {
+        "$value": "{accent.800}",
+        "$type": "color",
+        "$description": ""
+      },
+      "focused": {
+        "$value": "{accent.700}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{neutral.500}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{accent.500}",
+        "$type": "color",
+        "$description": ""
+      },
+      "default": {
+        "$value": "{accent.600}",
+        "$type": "color",
+        "$description": ""
+      }
+    },
+    "text": {
+      "focused": {
+        "$value": "{accent.100}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{white}",
+        "$type": "color",
+        "$description": ""
+      },
+      "pressed": {
+        "$value": "{accent.200}",
+        "$type": "color",
+        "$description": ""
+      },
+      "default": {
+        "$value": "{white}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{accent.100}",
+        "$type": "color",
+        "$description": ""
+      }
+    },
+    "border": {
+      "focused": {
+        "$value": "{buttonPrimary.border.default}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{buttonPrimary.border.default}",
+        "$type": "color",
+        "$description": ""
+      },
+      "default": {
+        "$value": "transparent",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{buttonPrimary.border.default}",
+        "$type": "color",
+        "$description": ""
+      },
+      "pressed": {
+        "$value": "{buttonPrimary.border.default}",
+        "$type": "color",
+        "$description": ""
+      }
+    },
+    "icon": {
+      "disabled": {
+        "$value": "{buttonPrimary.text.disabled}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{buttonPrimary.text.hovered}",
+        "$type": "color",
+        "$description": ""
+      },
+      "default": {
+        "$value": "{white}",
+        "$type": "color",
+        "$description": ""
+      },
+      "focused": {
+        "$value": "{accent.100}",
+        "$type": "color",
+        "$description": ""
+      },
+      "pressed": {
+        "$value": "{buttonPrimary.text.pressed}",
+        "$type": "color",
+        "$description": ""
+      }
+    }
+  },
+  "heading": {
+    "text": {
+      "$value": "{neutral.800}",
+      "$type": "color",
+      "$description": ""
+    }
+  },
+  "divider": {
+    "$value": "{layerBase.border}",
+    "$type": "color",
+    "$description": ""
+  },
+  "layerOne": {
+    "text": {
+      "$value": "{neutral.700}",
+      "$type": "color",
+      "$description": ""
+    },
+    "border": {
+      "$value": "{neutral.200}",
+      "$type": "color",
+      "$description": ""
+    },
+    "icon": {
+      "$value": "{layerOne.text}",
+      "$type": "color",
+      "$description": ""
+    },
+    "background": {
+      "$value": "{neutral.100}",
+      "$type": "color",
+      "$description": ""
+    }
+  },
+  "layerBase": {
+    "background": {
+      "$value": "{neutral.050}",
+      "$type": "color",
+      "$description": ""
+    },
+    "text": {
+      "$value": "{neutral.600}",
+      "$type": "color",
+      "$description": ""
+    },
+    "border": {
+      "$value": "{neutral.200}",
+      "$type": "color",
+      "$description": ""
+    },
+    "icon": {
+      "$value": "{neutral.500}",
+      "$type": "color",
+      "$description": ""
+    },
+    "highlight": {
+      "$value": "{accent.700}",
+      "$type": "color",
+      "$description": ""
+    }
+  },
+  "buttonSecondary": {
+    "background": {
+      "default": {
+        "$value": "{layerBase.background}",
+        "$type": "color",
+        "$description": ""
+      },
+      "pressed": {
+        "$value": "{accent.200}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{accent.100}",
+        "$type": "color",
+        "$description": ""
+      },
+      "focused": {
+        "$value": "{accent.100}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{pinkgray.100}",
+        "$type": "color",
+        "$description": ""
+      }
+    },
+    "text": {
+      "default": {
+        "$value": "{accent.700}",
+        "$type": "color",
+        "$description": ""
+      },
+      "focused": {
+        "$value": "{accent.600}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{neutral.500}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{buttonSecondary.text.focused}",
+        "$type": "color",
+        "$description": ""
+      },
+      "pressed": {
+        "$value": "{accent.600}",
+        "$type": "color",
+        "$description": ""
+      }
+    },
+    "icon": {
+      "pressed": {
+        "$value": "{buttonSecondary.text.pressed}",
+        "$type": "color",
+        "$description": ""
+      },
+      "focused": {
+        "$value": "{buttonSecondary.text.focused}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{buttonSecondary.text.disabled}",
+        "$type": "color",
+        "$description": ""
+      },
+      "default": {
+        "$value": "{buttonSecondary.text.default}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{buttonSecondary.text.hovered}",
+        "$type": "color",
+        "$description": ""
+      }
+    },
+    "border": {
+      "pressed": {
+        "$value": "{accent.200}",
+        "$type": "color",
+        "$description": ""
+      },
+      "default": {
+        "$value": "{accent.600}",
+        "$type": "color",
+        "$description": ""
+      },
+      "disabled": {
+        "$value": "{pinkgray.400}",
+        "$type": "color",
+        "$description": ""
+      },
+      "hovered": {
+        "$value": "{buttonSecondary.border.focused}",
+        "$type": "color",
+        "$description": ""
+      },
+      "focused": {
+        "$value": "{accent.400}",
+        "$type": "color",
+        "$description": ""
+      }
+    }
+  },
+  "input": {
+    "text": {
+      "$value": "{neutral.500}",
+      "$type": "color",
+      "$description": ""
+    },
+    "icon": {
+      "$value": "{input.text}",
+      "$type": "color",
+      "$description": ""
+    },
+    "background": {
+      "$value": "{layerBase.background}",
+      "$type": "color",
+      "$description": ""
+    },
+    "border": {
+      "$value": "{neutral.700}",
+      "$type": "color",
+      "$description": ""
+    }
+  },
+  "link": {
+    "hovered": {
+      "$value": "{link.focused}",
+      "$type": "color",
+      "$description": ""
+    },
+    "default": {
+      "$value": "{accent.500}",
+      "$type": "color",
+      "$description": ""
+    },
+    "focused": {
+      "$value": "{accent.600}",
+      "$type": "color",
+      "$description": ""
+    },
+    "pressed": {
+      "$value": "{accent.800}",
+      "$type": "color",
+      "$description": ""
+    }
+  },
+  "layerTwo": {
+    "background": {
+      "$value": "{neutral.200}",
+      "$type": "color",
+      "$description": ""
+    },
+    "border": {
+      "$value": "{neutral.300}",
+      "$type": "color",
+      "$description": ""
+    },
+    "text": {
+      "$value": "{neutral.800}",
+      "$type": "color",
+      "$description": ""
+    },
+    "icon": {
+      "$value": "{layerTwo.text}",
+      "$type": "color",
+      "$description": ""
+    }
+  }
+}

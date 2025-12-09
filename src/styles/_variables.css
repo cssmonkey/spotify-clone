@@ -1,0 +1,496 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --opacity-090: 0.9;
+  --opacity-095: 0.95;
+  --opacity-040: 0.4;
+  --opacity-transparent: 0;
+  --opacity-015: 0.15;
+  --opacity-020: 0.2;
+  --opacity-070: 0.7;
+  --opacity-050: 0.5;
+  --opacity-opaque: 1;
+  --opacity-080: 0.8;
+  --opacity-030: 0.3;
+  --opacity-085: 0.85;
+  --opacity-060: 0.6;
+  --opacity-010: 0.1;
+  --rotation-180: 180;
+  --rotation-270: 270;
+  --rotation-315: 315;
+  --rotation-330: 330;
+  --rotation-none: 0;
+  --rotation-090: 90;
+  --rotation-045: 45;
+  --rotation-half: 180;
+  --rotation-quarter: 90;
+  --rotation-030: 30;
+  --rotation-threequarters: 270;
+  --breakpoint-3xl: 1680; /** Very large screens/viewports, large desktops. */
+  --breakpoint-lg: 992; /** Medium screens/viewports, tablets in portrait. */
+  --breakpoint-2xl: 1440; /** Large screens/viewports, laptops, small desktops. */
+  --breakpoint-xs: 320; /** Small screens/viewports, small mobile devices. */
+  --breakpoint-md: 768; /** Medium screens/viewports, large mobile devices, tablets. */
+  --breakpoint-sm: 360; /** Small screens/viewports, larger mobile devices. */
+  --breakpoint-xl: 1200; /** Large screens/viewports, landscape tablets, laptops. */
+  --base: 8rem;
+  --blue-100: #bee1ff;
+  --blue-200: #81ccff;
+  --blue-300: #00b4f8;
+  --blue-400: #0094d4;
+  --blue-500: #087eb4;
+  --blue-600: #045982;
+  --blue-700: #024567;
+  --blue-800: #083550;
+  --blue-900: #00263d;
+  --blue-950: #00101d;
+  --blue-050: #e4f2ff;
+  --white: #ffffff;
+  --pinkgray-100: #f2eff1;
+  --pinkgray-200: #e1dde0;
+  --pinkgray-300: #c0bdbf;
+  --pinkgray-400: #a5a0a4;
+  --pinkgray-500: #928890;
+  --pinkgray-600: #675c65;
+  --pinkgray-700: #524650;
+  --pinkgray-800: #41333e;
+  --pinkgray-900: #31252f;
+  --pinkgray-950: #1a1118;
+  --pinkgray-050: #fcfbfc;
+  --purple-100: #f5ecff;
+  --purple-200: #e8d7ff;
+  --purple-300: #cfb0ff;
+  --purple-400: #b28ffa;
+  --purple-500: #9777e8;
+  --purple-600: #703fcc;
+  --purple-700: #582ea3;
+  --purple-800: #422281;
+  --purple-900: #311666;
+  --purple-950: #19083a;
+  --purple-050: #fefaff;
+  --orangeyellow-100: #fcefc7;
+  --orangeyellow-200: #fbdb8a;
+  --orangeyellow-300: #e8b731;
+  --orangeyellow-400: #d49600;
+  --orangeyellow-500: #bc7e00;
+  --orangeyellow-600: #865400;
+  --orangeyellow-700: #694001;
+  --orangeyellow-800: #513000;
+  --orangeyellow-900: #3b2300;
+  --orangeyellow-950: #201100;
+  --orangeyellow-050: #fffce6;
+  --bluegray-100: #edf0f3;
+  --bluegray-200: #d9dfe4;
+  --bluegray-300: #b7bfc7;
+  --bluegray-400: #99a3ae;
+  --bluegray-500: #818c97;
+  --bluegray-600: #57606a;
+  --bluegray-700: #424a54;
+  --bluegray-800: #303841;
+  --bluegray-900: #222931;
+  --bluegray-950: #10141a;
+  --bluegray-050: #fafbfc;
+  --orange-100: #ffecde;
+  --orange-200: #ffd6bc;
+  --orange-300: #fcab84;
+  --orange-400: #fa8036;
+  --orange-500: #e96000;
+  --orange-600: #a43f00;
+  --orange-700: #803000;
+  --orange-800: #612400;
+  --orange-900: #4b1900;
+  --orange-950: #290a00;
+  --orange-050: #fffaf6;
+  --graypink-100: #f7e9ef;
+  --graypink-200: #efd4df;
+  --graypink-300: #deaec3;
+  --graypink-400: #c88ea8;
+  --graypink-500: #b87393;
+  --graypink-600: #834b66;
+  --graypink-700: #69374f;
+  --graypink-800: #52273c;
+  --graypink-900: #3e1a2c;
+  --graypink-950: #1f0b15;
+  --graypink-050: #fcf5f8;
+  --pinkpurple-100: #f3edf9;
+  --pinkpurple-200: #e5daf0;
+  --pinkpurple-300: #d0b3e8;
+  --pinkpurple-400: #c58be4;
+  --pinkpurple-500: #bb66e2;
+  --pinkpurple-600: #912fb5;
+  --pinkpurple-700: #73208f;
+  --pinkpurple-800: #5a1570;
+  --pinkpurple-900: #440c54;
+  --pinkpurple-950: #25052e;
+  --pinkpurple-050: #fcfafe;
+  --greengray-100: #e8f1f3;
+  --greengray-200: #d1e1e4;
+  --greengray-300: #b3c0c3;
+  --greengray-400: #98a4a7;
+  --greengray-500: #808d90;
+  --greengray-600: #566164;
+  --greengray-700: #414b4e;
+  --greengray-800: #2f393c;
+  --greengray-900: #212a2c;
+  --greengray-950: #0f1517;
+  --greengray-050: #f9fcfc;
+  --yellow-100: #fdf6b1;
+  --yellow-200: #faeb88;
+  --yellow-300: #f8d35c;
+  --yellow-400: #dba945;
+  --yellow-500: #b78030;
+  --yellow-600: #85541f;
+  --yellow-700: #693f17;
+  --yellow-800: #53300e;
+  --yellow-900: #3e2207;
+  --yellow-950: #290a03;
+  --yellow-050: #fdffd5;
+  --graypurple-100: #eee9fb;
+  --graypurple-200: #e3dcf7;
+  --graypurple-300: #bfbaea;
+  --graypurple-400: #9c9dde;
+  --graypurple-500: #8584d5;
+  --graypurple-600: #634ebb;
+  --graypurple-700: #4f3c8f;
+  --graypurple-800: #452a6e;
+  --graypurple-900: #361b56;
+  --graypurple-950: #210a2e;
+  --graypurple-050: #f9f8fe;
+  --bluegreen-100: #d2f9ec;
+  --bluegreen-200: #96eaae;
+  --bluegreen-300: #7eca9a;
+  --bluegreen-400: #61af7b;
+  --bluegreen-500: #4d9963;
+  --bluegreen-600: #2b6b49;
+  --bluegreen-700: #1a5339;
+  --bluegreen-800: #113f2d;
+  --bluegreen-900: #0a2e23;
+  --bluegreen-950: #051711;
+  --bluegreen-050: #effff6;
+  --pink-100: #ffeaf5;
+  --pink-200: #ffd2e9;
+  --pink-300: #ffa1d3;
+  --pink-400: #eb7db9;
+  --pink-500: #e84fa9;
+  --pink-600: #a72d78;
+  --pink-700: #81235e;
+  --pink-800: #66154b;
+  --pink-900: #52033a;
+  --pink-950: #2e011f;
+  --pink-050: #fffafc;
+  --green-100: #d2f9db;
+  --green-200: #9af2ae;
+  --green-300: #74d289;
+  --green-400: #57b56b;
+  --green-500: #439c57;
+  --green-600: #236c35;
+  --green-700: #175428;
+  --green-800: #0e401d;
+  --green-900: #072f16;
+  --green-950: #031809;
+  --green-050: #f3fef6;
+  --red-100: #ffebea;
+  --red-200: #ffd4d3;
+  --red-300: #ffa6a7;
+  --red-400: #fb7b7c;
+  --red-500: #f54e56;
+  --red-600: #bd122d;
+  --red-700: #950924;
+  --red-800: #75001d;
+  --red-900: #580019;
+  --red-950: #32000a;
+  --red-050: #fffaf9;
+  --brown-100: #f9eee6;
+  --brown-200: #f1dac6;
+  --brown-300: #d6b99e;
+  --brown-400: #bd9b7d;
+  --brown-500: #a78468;
+  --brown-600: #6e523c;
+  --brown-700: #604330;
+  --brown-800: #4a3222;
+  --brown-900: #382417;
+  --brown-950: #180e07;
+  --brown-050: #fefaf8;
+  --grayblue-100: #d9f1f4;
+  --grayblue-200: #bbe6ec;
+  --grayblue-300: #a7d7de;
+  --grayblue-400: #96c1c7;
+  --grayblue-500: #81a6ab;
+  --grayblue-600: #6b898d;
+  --grayblue-700: #577074;
+  --grayblue-800: #485d60;
+  --grayblue-900: #334244;
+  --grayblue-950: #1f282a;
+  --grayblue-050: #f4fbfc;
+  --black: #1b1f24;
+  --redorange-100: #fbe9e2;
+  --redorange-200: #f6d5c4;
+  --redorange-300: #edad89;
+  --redorange-400: #ea8456;
+  --redorange-500: #da6542;
+  --redorange-600: #a03421;
+  --redorange-700: #82151f;
+  --redorange-800: #620b14;
+  --redorange-900: #450506;
+  --redorange-950: #300304;
+  --redorange-050: #fef7f4;
+  --greenblue-100: #daf5fb;
+  --greenblue-200: #aae9f3;
+  --greenblue-300: #7bcad5;
+  --greenblue-400: #5eadba;
+  --greenblue-500: #4995a2;
+  --greenblue-600: #276871;
+  --greenblue-700: #1a5058;
+  --greenblue-800: #103d44;
+  --greenblue-900: #092d33;
+  --greenblue-950: #04171a;
+  --greenblue-050: #edfbfe;
+  --browngray-100: #e4ded9;
+  --browngray-200: #d0c4ba;
+  --browngray-300: #b5a9a1;
+  --browngray-400: #958e8a;
+  --browngray-500: #857f7b;
+  --browngray-600: #565251;
+  --browngray-700: #433f3e;
+  --browngray-800: #35312f;
+  --browngray-900: #26211f;
+  --browngray-950: #171413;
+  --browngray-050: #f5f3f0;
+  --orangered-100: #ffebe7;
+  --orangered-200: #ffd5cc;
+  --orangered-300: #fda899;
+  --orangered-400: #ee8474;
+  --orangered-500: #f25538;
+  --orangered-600: #ad3420;
+  --orangered-700: #8b2211;
+  --orangered-800: #6f1306;
+  --orangered-900: #550a01;
+  --orangered-950: #300300;
+  --orangered-050: #fffaf8;
+  --redpink-100: #f7d7d7;
+  --redpink-200: #f2b5b6;
+  --redpink-300: #ec8789;
+  --redpink-400: #e5676a;
+  --redpink-500: #c43d4c;
+  --redpink-600: #982c3b;
+  --redpink-700: #7d212f;
+  --redpink-800: #631723;
+  --redpink-900: #4a0e16;
+  --redpink-950: #30060b;
+  --redpink-050: #fcf3f3;
+  --yellowgreen-100: #e4f9a3;
+  --yellowgreen-200: #cbe98a;
+  --yellowgreen-300: #abc967;
+  --yellowgreen-400: #8eac50;
+  --yellowgreen-500: #76953b;
+  --yellowgreen-600: #446923;
+  --yellowgreen-700: #1f5417;
+  --yellowgreen-800: #0e401c;
+  --yellowgreen-900: #082f1c;
+  --yellowgreen-950: #031712;
+  --yellowgreen-050: #f7fee2;
+  --augmented-fourth: 1.414rem; /** Used as a multiplier for dimensions for a high contrast proportional scale. */
+  --perfect-fifth: 1.5rem; /** Used as a multiplier for dimensions for a high contrast proportional scale. */
+  --golden-ratio: 1.618rem; /** Used as a multiplier for dimensions for a high contrast proportional scale. */
+  --major-third: 1.25rem; /** Used as a multiplier for dimensions for a medium contrast proportional scale. */
+  --major-second: 1.125rem; /** Used as a multiplier for dimensions for a low contrast proportional scale. */
+  --perfect-fourth: 1.333rem; /** Used as a multiplier for dimensions for a medium contrast proportional scale. */
+  --minor-second: 1.067rem; /** Used as a multiplier for dimensions for a low contrast proportional scale. */
+  --minor-third: 1.2rem; /** Used as a multiplier for dimensions for a medium contrast proportional scale. */
+  --density: 1.25rem; /** For a comfortable density, choose a medium-contrast scale. */
+  --modular-xs: 8rem*1.25rem*1.25rem*1.25rem;
+  --modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --modular-3xs: 8rem*1.25rem;
+  --modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --modular-2xs: 8rem*1.25rem*1.25rem;
+  --linear-0: 8rem*0;
+  --linear-100: 8rem*1;
+  --linear-150: 8rem*1.5;
+  --linear-200: 8rem*2;
+  --linear-250: 8rem*2.5;
+  --linear-300: 8rem*3;
+  --linear-400: 8rem*4;
+  --linear-500: 8rem*5;
+  --linear-800: 8rem*8;
+  --linear-050: 8rem*0.5;
+  --linear-075: 8rem*.75;
+  --linear-025: 8rem*0.25;
+  --size-modular-none: 0; /** Adjusts to chosen density. */
+  --size-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --size-linear-100: 8rem*1; /** Remains the same regardless of density. */
+  --size-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
+  --size-linear-200: 8rem*2; /** Remains the same regardless of density. */
+  --size-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
+  --size-linear-300: 8rem*3; /** Remains the same regardless of density. */
+  --size-linear-400: 8rem*4; /** Remains the same regardless of density. */
+  --size-linear-none: 8rem*0; /** Remains the same regardless of density. */
+  --size-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
+  --size-linear-075: 8rem*.75; /** Remains the same regardless of density. */
+  --size-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
+  --radius-modular-none: 0;
+  --radius-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-full: 9999;
+  --radius-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-linear-100: 8rem*1; /** Remains the same regardless of density. */
+  --radius-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
+  --radius-linear-200: 8rem*2; /** Remains the same regardless of density. */
+  --radius-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
+  --radius-linear-300: 8rem*3; /** Remains the same regardless of density. */
+  --radius-linear-400: 8rem*4; /** Remains the same regardless of density. */
+  --radius-linear-none: 8rem*0; /** Remains the same regardless of density. */
+  --radius-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
+  --radius-linear-full: 9999; /** Use to create circular shapes. */
+  --radius-linear-075: 8rem*.75; /** Remains the same regardless of density. */
+  --radius-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
+  --space-modular-none: 0;
+  --space-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --space-linear-100: 8rem*1; /** Remains the same regardless of density. */
+  --space-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
+  --space-linear-200: 8rem*2; /** Remains the same regardless of density. */
+  --space-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
+  --space-linear-300: 8rem*3; /** Remains the same regardless of density. */
+  --space-linear-400: 8rem*4; /** Remains the same regardless of density. */
+  --space-linear-none: 8rem*0; /** Remains the same regardless of density. */
+  --space-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
+  --space-linear-075: 8rem*.75; /** Remains the same regardless of density. */
+  --space-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
+  --font-size-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --font-size-linear-100: 8rem*1; /** Remains the same regardless of density. */
+  --font-size-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
+  --font-size-linear-200: 8rem*2; /** Remains the same regardless of density. */
+  --font-size-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
+  --font-size-linear-300: 8rem*3; /** Remains the same regardless of density. */
+  --font-size-linear-400: 8rem*4; /** Remains the same regardless of density. */
+  --font-size-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
+  --font-size-linear-075: 8rem*.75; /** Remains the same regardless of density. */
+  --font-size-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
+  --body: 8rem*1.25rem*1.25rem*1.25rem;
+  --label: 8rem*1.25rem*1.25rem*1.25rem;
+  --heading-level-three: 8rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --heading-level-two: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --heading-level-one: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --heading-text: #35312f;
+  --display-subtitle: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --display-title: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --accent-100: #f5ecff;
+  --accent-200: #e8d7ff;
+  --accent-300: #cfb0ff;
+  --accent-400: #b28ffa;
+  --accent-500: #9777e8;
+  --accent-600: #703fcc;
+  --accent-700: #582ea3;
+  --accent-800: #422281;
+  --accent-900: #311666;
+  --accent-950: #19083a;
+  --accent-050: #fefaff;
+  --neutral-100: #e4ded9;
+  --neutral-200: #d0c4ba;
+  --neutral-300: #b5a9a1;
+  --neutral-400: #958e8a;
+  --neutral-500: #857f7b;
+  --neutral-600: #565251;
+  --neutral-700: #433f3e;
+  --neutral-800: #35312f;
+  --neutral-900: #26211f;
+  --neutral-950: #171413;
+  --neutral-050: #f5f3f0;
+  --button-primary-background-pressed: #422281;
+  --button-primary-background-focused: #582ea3;
+  --button-primary-background-disabled: #857f7b;
+  --button-primary-background-hovered: #9777e8;
+  --button-primary-background-default: #703fcc;
+  --button-primary-text-focused: #f5ecff;
+  --button-primary-text-disabled: #ffffff;
+  --button-primary-text-pressed: #e8d7ff;
+  --button-primary-text-default: #ffffff;
+  --button-primary-text-hovered: #f5ecff;
+  --button-primary-border-focused: rgba(0, 0, 0, 0);
+  --button-primary-border-disabled: rgba(0, 0, 0, 0);
+  --button-primary-border-default: rgba(0, 0, 0, 0);
+  --button-primary-border-hovered: rgba(0, 0, 0, 0);
+  --button-primary-border-pressed: rgba(0, 0, 0, 0);
+  --button-primary-icon-disabled: #ffffff;
+  --button-primary-icon-hovered: #f5ecff;
+  --button-primary-icon-default: #ffffff;
+  --button-primary-icon-focused: #f5ecff;
+  --button-primary-icon-pressed: #e8d7ff;
+  --divider: #d0c4ba;
+  --layer-one-text: #433f3e;
+  --layer-one-border: #d0c4ba;
+  --layer-one-icon: #433f3e;
+  --layer-one-background: #e4ded9;
+  --layer-base-background: #f5f3f0;
+  --layer-base-text: #565251;
+  --layer-base-border: #d0c4ba;
+  --layer-base-icon: #857f7b;
+  --layer-base-highlight: #582ea3;
+  --button-secondary-background-default: #f5f3f0;
+  --button-secondary-background-pressed: #e8d7ff;
+  --button-secondary-background-hovered: #f5ecff;
+  --button-secondary-background-focused: #f5ecff;
+  --button-secondary-background-disabled: #f2eff1;
+  --button-secondary-text-default: #582ea3;
+  --button-secondary-text-focused: #703fcc;
+  --button-secondary-text-disabled: #857f7b;
+  --button-secondary-text-hovered: #703fcc;
+  --button-secondary-text-pressed: #703fcc;
+  --button-secondary-icon-pressed: #703fcc;
+  --button-secondary-icon-focused: #703fcc;
+  --button-secondary-icon-disabled: #857f7b;
+  --button-secondary-icon-default: #582ea3;
+  --button-secondary-icon-hovered: #703fcc;
+  --button-secondary-border-pressed: #e8d7ff;
+  --button-secondary-border-default: #703fcc;
+  --button-secondary-border-disabled: #a5a0a4;
+  --button-secondary-border-hovered: #b28ffa;
+  --button-secondary-border-focused: #b28ffa;
+  --input-text: #857f7b;
+  --input-icon: #857f7b;
+  --input-background: #f5f3f0;
+  --input-border: #433f3e;
+  --link-hovered: #703fcc;
+  --link-default: #9777e8;
+  --link-focused: #703fcc;
+  --link-pressed: #422281;
+  --layer-two-background: #d0c4ba;
+  --layer-two-border: #b5a9a1;
+  --layer-two-text: #35312f;
+  --layer-two-icon: #35312f;
+}

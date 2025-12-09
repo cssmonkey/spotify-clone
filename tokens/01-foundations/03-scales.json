@@ -1,0 +1,426 @@
+{
+  "size": {
+    "modular": {
+      "none": {
+        "$value": "0",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "xs": {
+        "$value": "{modular.xs}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "md": {
+        "$value": "{modular.md}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xl": {
+        "$value": "{modular.3xl}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xs": {
+        "$value": "{modular.3xs}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xl": {
+        "$value": "{modular.2xl}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "lg": {
+        "$value": "{modular.lg}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "xl": {
+        "$value": "{modular.xl}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "sm": {
+        "$value": "{modular.sm}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xs": {
+        "$value": "{modular.2xs}",
+        "$type": "sizing",
+        "$description": "Adjusts to chosen density."
+      }
+    },
+    "linear": {
+      "100": {
+        "$value": "{linear.100}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "150": {
+        "$value": "{linear.150}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "200": {
+        "$value": "{linear.200}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "250": {
+        "$value": "{linear.250}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "300": {
+        "$value": "{linear.300}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "400": {
+        "$value": "{linear.400}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "none": {
+        "$value": "{linear.0}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "050": {
+        "$value": "{linear.050}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "075": {
+        "$value": "{linear.075}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      },
+      "025": {
+        "$value": "{linear.025}",
+        "$type": "sizing",
+        "$description": "Remains the same regardless of density."
+      }
+    }
+  },
+  "radius": {
+    "modular": {
+      "none": {
+        "$value": "0",
+        "$type": "borderRadius",
+        "$description": ""
+      },
+      "xs": {
+        "$value": "{modular.xs}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "md": {
+        "$value": "{modular.md}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xl": {
+        "$value": "{modular.3xl}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xs": {
+        "$value": "{modular.3xs}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xl": {
+        "$value": "{modular.2xl}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "lg": {
+        "$value": "{modular.lg}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "full": {
+        "$value": "9999",
+        "$type": "borderRadius",
+        "$description": ""
+      },
+      "xl": {
+        "$value": "{modular.xl}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "sm": {
+        "$value": "{modular.sm}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xs": {
+        "$value": "{modular.2xs}",
+        "$type": "borderRadius",
+        "$description": "Adjusts to chosen density."
+      }
+    },
+    "linear": {
+      "100": {
+        "$value": "{linear.100}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "150": {
+        "$value": "{linear.150}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "200": {
+        "$value": "{linear.200}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "250": {
+        "$value": "{linear.250}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "300": {
+        "$value": "{linear.300}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "400": {
+        "$value": "{linear.400}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "none": {
+        "$value": "{linear.0}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "050": {
+        "$value": "{linear.050}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "full": {
+        "$value": "9999",
+        "$type": "borderRadius",
+        "$description": "Use to create circular shapes."
+      },
+      "075": {
+        "$value": "{linear.075}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      },
+      "025": {
+        "$value": "{linear.025}",
+        "$type": "borderRadius",
+        "$description": "Remains the same regardless of density."
+      }
+    }
+  },
+  "space": {
+    "modular": {
+      "none": {
+        "$value": "0",
+        "$type": "spacing",
+        "$description": ""
+      },
+      "xs": {
+        "$value": "{modular.xs}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "md": {
+        "$value": "{modular.md}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xl": {
+        "$value": "{modular.3xl}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xs": {
+        "$value": "{modular.3xs}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xl": {
+        "$value": "{modular.2xl}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "lg": {
+        "$value": "{modular.lg}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "xl": {
+        "$value": "{modular.xl}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "sm": {
+        "$value": "{modular.sm}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xs": {
+        "$value": "{modular.2xs}",
+        "$type": "spacing",
+        "$description": "Adjusts to chosen density."
+      }
+    },
+    "linear": {
+      "100": {
+        "$value": "{linear.100}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "150": {
+        "$value": "{linear.150}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "200": {
+        "$value": "{linear.200}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "250": {
+        "$value": "{linear.250}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "300": {
+        "$value": "{linear.300}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "400": {
+        "$value": "{linear.400}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "none": {
+        "$value": "{linear.0}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "050": {
+        "$value": "{linear.050}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "075": {
+        "$value": "{linear.075}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      },
+      "025": {
+        "$value": "{linear.025}",
+        "$type": "spacing",
+        "$description": "Remains the same regardless of density."
+      }
+    }
+  },
+  "font-size": {
+    "modular": {
+      "xs": {
+        "$value": "{modular.xs}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "md": {
+        "$value": "{modular.md}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xl": {
+        "$value": "{modular.3xl}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "3xs": {
+        "$value": "{modular.3xs}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xl": {
+        "$value": "{modular.2xl}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "lg": {
+        "$value": "{modular.lg}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "xl": {
+        "$value": "{modular.xl}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "sm": {
+        "$value": "{modular.sm}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      },
+      "2xs": {
+        "$value": "{modular.2xs}",
+        "$type": "fontSizes",
+        "$description": "Adjusts to chosen density."
+      }
+    },
+    "linear": {
+      "100": {
+        "$value": "{linear.100}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "150": {
+        "$value": "{linear.150}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "200": {
+        "$value": "{linear.200}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "250": {
+        "$value": "{linear.250}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "300": {
+        "$value": "{linear.300}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "400": {
+        "$value": "{linear.400}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "050": {
+        "$value": "{linear.050}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "075": {
+        "$value": "{linear.075}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      },
+      "025": {
+        "$value": "{linear.025}",
+        "$type": "fontSizes",
+        "$description": "Remains the same regardless of density."
+      }
+    }
+  }
+}

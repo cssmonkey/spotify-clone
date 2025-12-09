@@ -1,0 +1,7 @@
+{
+  "density": {
+    "$value": "{minor-second}",
+    "$type": "dimension",
+    "$description": "For a compact density, choose a low-contrast scale."
+  }
+}

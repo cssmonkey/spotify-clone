@@ -1,0 +1,42 @@
+{
+  "augmented-fourth": {
+    "$value": "1.414",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a high contrast proportional scale."
+  },
+  "perfect-fifth": {
+    "$value": "1.5",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a high contrast proportional scale."
+  },
+  "golden-ratio": {
+    "$value": "1.618",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a high contrast proportional scale."
+  },
+  "major-third": {
+    "$value": "1.25",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a medium contrast proportional scale."
+  },
+  "major-second": {
+    "$value": "1.125",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a low contrast proportional scale."
+  },
+  "perfect-fourth": {
+    "$value": "1.333",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a medium contrast proportional scale."
+  },
+  "minor-second": {
+    "$value": "1.067",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a low contrast proportional scale."
+  },
+  "minor-third": {
+    "$value": "1.2",
+    "$type": "dimension",
+    "$description": "Used as a multiplier for dimensions for a medium contrast proportional scale."
+  }
+}

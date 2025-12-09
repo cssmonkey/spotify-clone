@@ -1,0 +1,41 @@
+{
+  "body": {
+    "$value": "{font-size.modular.xs}",
+    "$type": "fontSizes",
+    "$description": ""
+  },
+  "label": {
+    "$value": "{font-size.modular.xs}",
+    "$type": "fontSizes",
+    "$description": ""
+  },
+  "heading": {
+    "level-three": {
+      "$value": "{font-size.modular.sm}",
+      "$type": "fontSizes",
+      "$description": ""
+    },
+    "level-two": {
+      "$value": "{font-size.modular.md}",
+      "$type": "fontSizes",
+      "$description": ""
+    },
+    "level-one": {
+      "$value": "{font-size.modular.lg}",
+      "$type": "fontSizes",
+      "$description": ""
+    }
+  },
+  "display": {
+    "subtitle": {
+      "$value": "{font-size.modular.xl}",
+      "$type": "fontSizes",
+      "$description": ""
+    },
+    "title": {
+      "$value": "{font-size.modular.2xl}",
+      "$type": "fontSizes",
+      "$description": ""
+    }
+  }
+}

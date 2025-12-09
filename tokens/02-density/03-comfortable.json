@@ -1,0 +1,7 @@
+{
+  "density": {
+    "$value": "{major-third}",
+    "$type": "dimension",
+    "$description": "For a comfortable density, choose a medium-contrast scale."
+  }
+}

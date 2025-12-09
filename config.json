@@ -1,0 +1,26 @@
+{
+  "source": [
+    "tokens/01-foundations/01-fixed.json",
+    "tokens/01-foundations/02-colors.json",
+    "tokens/02-density/01-modular-scales.json",
+    "tokens/02-density/03-comfortable.json",
+    "tokens/03-scale/01-modular.json",
+    "tokens/03-scale/02-linear-scale.json",
+    "tokens/01-foundations/03-scales.json",
+    "tokens/04-typography/01-typography.json",
+    "tokens/05-theme/01-vibrant.json",
+    "tokens/06-color-mode/01-base.json"
+  ],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "src/styles/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    }
+  }
+}

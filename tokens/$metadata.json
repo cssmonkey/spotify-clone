@@ -1,0 +1,36 @@
+{
+  "tokenSetOrder": [
+    "Foundations - Fixed",
+    "Foundations - Colors",
+    "Density - Modular Scales",
+    "Density - Compact",
+    "Density - Comfortable",
+    "Density - Spacious",
+    "Modular Scale",
+    "Linear Scale",
+    "Foundations - Scales",
+    "Typography",
+    "Color theme - Muted",
+    "Color theme - Vibrant",
+    "Light - Base",
+    "Dark - Base"
+  ],
+  "activeThemes": [
+    "Always enabled/Global",
+    "Density/Comfortable",
+    "Color mode/Light",
+    "Color theme/Vibrant"
+  ],
+  "activeSets": [
+    "Typography",
+    "Foundations - Scales",
+    "Foundations - Colors",
+    "Linear Scale",
+    "Modular Scale",
+    "Light - Base",
+    "Foundations - Fixed",
+    "Density - Modular Scales",
+    "Density - Comfortable",
+    "Color theme - Vibrant"
+  ]
+}

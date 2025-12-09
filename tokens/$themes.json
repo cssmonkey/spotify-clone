@@ -1,0 +1,98 @@
+[
+  {
+    "id": "a3841863-fda3-8029-8006-0096db9a5ace",
+    "name": "Global",
+    "group": "Always enabled",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-13T10:29:47.758Z",
+    "selectedTokenSets": {
+      "Typography": "enabled",
+      "Foundations - Scales": "enabled",
+      "Foundations - Colors": "enabled",
+      "Linear Scale": "enabled",
+      "Modular Scale": "enabled",
+      "Foundations - Fixed": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-0096f713ab07",
+    "name": "Compact",
+    "group": "Density",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Density - Compact": "enabled",
+      "Density - Modular Scales": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-009718ab0cbe",
+    "name": "Comfortable",
+    "group": "Density",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Density - Modular Scales": "enabled",
+      "Density - Comfortable": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-00972fbb6d7b",
+    "name": "Spacious",
+    "group": "Density",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Density - Spacious": "enabled",
+      "Density - Modular Scales": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-00b7be93e7a7",
+    "name": "Light",
+    "group": "Color mode",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Light - Base": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-00b7c7b8e8cf",
+    "name": "Dark",
+    "group": "Color mode",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Dark - Base": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-00b9436ea344",
+    "name": "Vibrant",
+    "group": "Color theme",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Color theme - Vibrant": "enabled"
+    }
+  },
+  {
+    "id": "a3841863-fda3-8029-8006-00b954d92158",
+    "name": "Muted",
+    "group": "Color theme",
+    "description": "",
+    "is-source": false,
+    "modified-at": "2025-08-12T15:06:04.380Z",
+    "selectedTokenSets": {
+      "Color theme - Muted": "enabled"
+    }
+  }
+]

@@ -1,0 +1,173 @@
+{
+  "opacity": {
+    "090": {
+      "$value": "0.9",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "095": {
+      "$value": "0.95",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "040": {
+      "$value": "0.4",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "transparent": {
+      "$value": "0",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "015": {
+      "$value": "0.15",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "020": {
+      "$value": "0.2",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "070": {
+      "$value": "0.7",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "050": {
+      "$value": "0.5",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "opaque": {
+      "$value": "1",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "080": {
+      "$value": "0.8",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "030": {
+      "$value": "0.3",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "085": {
+      "$value": "0.85",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "060": {
+      "$value": "0.6",
+      "$type": "opacity",
+      "$description": ""
+    },
+    "010": {
+      "$value": "0.1",
+      "$type": "opacity",
+      "$description": ""
+    }
+  },
+  "rotation": {
+    "180": {
+      "$value": "180",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "270": {
+      "$value": "270",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "315": {
+      "$value": "315",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "330": {
+      "$value": "330",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "none": {
+      "$value": "0",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "090": {
+      "$value": "90",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "045": {
+      "$value": "45",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "half": {
+      "$value": "{rotation.180}",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "quarter": {
+      "$value": "{rotation.090}",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "030": {
+      "$value": "30",
+      "$type": "rotation",
+      "$description": ""
+    },
+    "threequarters": {
+      "$value": "{rotation.270}",
+      "$type": "rotation",
+      "$description": ""
+    }
+  },
+  "breakpoint": {
+    "3xl": {
+      "$value": "1680",
+      "$type": "sizing",
+      "$description": "Very large screens/viewports, large desktops."
+    },
+    "lg": {
+      "$value": "992",
+      "$type": "sizing",
+      "$description": "Medium screens/viewports, tablets in portrait."
+    },
+    "2xl": {
+      "$value": "1440",
+      "$type": "sizing",
+      "$description": "Large screens/viewports, laptops, small desktops."
+    },
+    "xs": {
+      "$value": "320",
+      "$type": "sizing",
+      "$description": "Small screens/viewports, small mobile devices."
+    },
+    "md": {
+      "$value": "768",
+      "$type": "sizing",
+      "$description": "Medium screens/viewports, large mobile devices, tablets."
+    },
+    "sm": {
+      "$value": "360",
+      "$type": "sizing",
+      "$description": "Small screens/viewports, larger mobile devices."
+    },
+    "xl": {
+      "$value": "1200",
+      "$type": "sizing",
+      "$description": "Large screens/viewports, landscape tablets, laptops."
+    }
+  },
+  "base": {
+    "$value": "8",
+    "$type": "dimension",
+    "$description": ""
+  }
+}

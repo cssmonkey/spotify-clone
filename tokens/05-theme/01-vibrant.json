@@ -1,0 +1,116 @@
+{
+  "accent": {
+    "100": {
+      "$value": "{purple.100}",
+      "$type": "color",
+      "$description": ""
+    },
+    "200": {
+      "$value": "{purple.200}",
+      "$type": "color",
+      "$description": ""
+    },
+    "300": {
+      "$value": "{purple.300}",
+      "$type": "color",
+      "$description": ""
+    },
+    "400": {
+      "$value": "{purple.400}",
+      "$type": "color",
+      "$description": ""
+    },
+    "500": {
+      "$value": "{purple.500}",
+      "$type": "color",
+      "$description": ""
+    },
+    "600": {
+      "$value": "{purple.600}",
+      "$type": "color",
+      "$description": ""
+    },
+    "700": {
+      "$value": "{purple.700}",
+      "$type": "color",
+      "$description": ""
+    },
+    "800": {
+      "$value": "{purple.800}",
+      "$type": "color",
+      "$description": ""
+    },
+    "900": {
+      "$value": "{purple.900}",
+      "$type": "color",
+      "$description": ""
+    },
+    "950": {
+      "$value": "{purple.950}",
+      "$type": "color",
+      "$description": ""
+    },
+    "050": {
+      "$value": "{purple.050}",
+      "$type": "color",
+      "$description": ""
+    }
+  },
+  "neutral": {
+    "100": {
+      "$value": "{browngray.100}",
+      "$type": "color",
+      "$description": ""
+    },
+    "200": {
+      "$value": "{browngray.200}",
+      "$type": "color",
+      "$description": ""
+    },
+    "300": {
+      "$value": "{browngray.300}",
+      "$type": "color",
+      "$description": ""
+    },
+    "400": {
+      "$value": "{browngray.400}",
+      "$type": "color",
+      "$description": ""
+    },
+    "500": {
+      "$value": "{browngray.500}",
+      "$type": "color",
+      "$description": ""
+    },
+    "600": {
+      "$value": "{browngray.600}",
+      "$type": "color",
+      "$description": ""
+    },
+    "700": {
+      "$value": "{browngray.700}",
+      "$type": "color",
+      "$description": ""
+    },
+    "800": {
+      "$value": "{browngray.800}",
+      "$type": "color",
+      "$description": ""
+    },
+    "900": {
+      "$value": "{browngray.900}",
+      "$type": "color",
+      "$description": ""
+    },
+    "950": {
+      "$value": "{browngray.950}",
+      "$type": "color",
+      "$description": ""
+    },
+    "050": {
+      "$value": "{browngray.050}",
+      "$type": "color",
+      "$description": ""
+    }
+  }
+}

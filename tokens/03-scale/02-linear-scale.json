@@ -1,0 +1,64 @@
+{
+  "linear": {
+    "0": {
+      "$value": "{base}*0",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "100": {
+      "$value": "{base}*1",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "150": {
+      "$value": "{base}*1.5",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "200": {
+      "$value": "{base}*2",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "250": {
+      "$value": "{base}*2.5",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "300": {
+      "$value": "{base}*3",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "400": {
+      "$value": "{base}*4",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "500": {
+      "$value": "{base}*5",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "800": {
+      "$value": "{base}*8",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "050": {
+      "$value": "{base}*0.5",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "075": {
+      "$value": "{base}*.75",
+      "$type": "dimension",
+      "$description": ""
+    },
+    "025": {
+      "$value": "{base}*0.25",
+      "$type": "dimension",
+      "$description": ""
+    }
+  }
+}
