@@ -14,7 +14,7 @@
   "platforms": {
     "css": {
       "transformGroup": "css",
-      "buildPath": "src/styles/",
+      "buildPath": "src/app/_styles/",
       "files": [
         {
           "destination": "_variables.css",

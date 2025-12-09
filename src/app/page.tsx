@@ -1,9 +1,11 @@
 import Image from 'next/image';
 import styles from './page.module.css';
+import GlobalNav from '@/components/03-organisms/global-nav/GlobalNav';
 
 export default function Home() {
   return (
     <div className={styles.page}>
+      <GlobalNav />
       <main className={styles.main}>
         <Image
           className={styles.logo}
@@ -35,7 +37,7 @@ export default function Home() {
             center.
           </p>
         </div>
-        <div className={styles.ctas}> 
+        <div className={styles.ctas}>
           <a
             className={styles.primary}
             href='https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app'

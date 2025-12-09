@@ -1,6 +1,9 @@
+
+@import url('./_variables.css');
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--layer-base-background);
+  --foreground: var(--layer-base-text);
 }
 
 @media (prefers-color-scheme: dark) {
