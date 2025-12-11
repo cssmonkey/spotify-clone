@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --experimental-https",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
@@ -11,9 +11,13 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "playwright:install": "npx playwright install --with-deps",
-    "e2e": "npx playwright test"
+    "e2e": "npx playwright test",
+    "build:design-tokens": "style-dictionary build"
   },
   "dependencies": {
+    "better-auth": "^1.4.6",
+    "better-sqlite3": "^12.5.0",
+    "clsx": "^2.1.1",
     "next": "16.0.7",
     "react": "19.2.0",
     "react-dom": "19.2.0"
@@ -26,6 +30,7 @@
     "@storybook/addon-onboarding": "^10.1.4",
     "@storybook/addon-vitest": "^10.1.4",
     "@storybook/nextjs-vite": "^10.1.4",
+    "@types/better-sqlite3": "^7.6.13",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

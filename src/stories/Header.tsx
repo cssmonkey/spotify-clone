@@ -12,9 +12,14 @@ export interface HeaderProps {
   onCreateAccount?: () => void;
 }
 
-export const Header = ({ user, onLogin, onLogout, onCreateAccount }: HeaderProps) => (
- <header>
-            <div className='storybook-header'>
+export const Header = ({
+  user,
+  onLogin,
+  onLogout,
+  onCreateAccount,
+}: HeaderProps) => (
+  <header>
+    <div className='storybook-header'>
       <div>
         <svg
           width='32'

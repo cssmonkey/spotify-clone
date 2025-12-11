@@ -111,7 +111,7 @@
   },
   "heading": {
     "text": {
-      "$value": "{neutral.800}",
+      "$value": "{neutral.100}",
       "$type": "color",
       "$description": ""
     }
@@ -123,12 +123,12 @@
   },
   "layerOne": {
     "text": {
-      "$value": "{neutral.700}",
+      "$value": "{neutral.300}",
       "$type": "color",
       "$description": ""
     },
     "border": {
-      "$value": "{neutral.200}",
+      "$value": "{neutral.700}",
       "$type": "color",
       "$description": ""
     },
@@ -138,29 +138,29 @@
       "$description": ""
     },
     "background": {
-      "$value": "{neutral.100}",
+      "$value": "{neutral.800}",
       "$type": "color",
       "$description": ""
     }
   },
   "layerBase": {
     "background": {
-      "$value": "{neutral.050}",
+      "$value": "{neutral.950}",
       "$type": "color",
       "$description": ""
     },
     "text": {
-      "$value": "{neutral.600}",
+      "$value": "{neutral.400}",
       "$type": "color",
       "$description": ""
     },
     "border": {
-      "$value": "{neutral.200}",
+      "$value": "{neutral.700}",
       "$type": "color",
       "$description": ""
     },
     "icon": {
-      "$value": "{neutral.500}",
+      "$value": "{layerBase.text}",
       "$type": "color",
       "$description": ""
     },
@@ -178,34 +178,34 @@
         "$description": ""
       },
       "pressed": {
-        "$value": "{accent.200}",
+        "$value": "{accent.800}",
         "$type": "color",
         "$description": ""
       },
       "hovered": {
-        "$value": "{accent.100}",
+        "$value": "{accent.600}",
         "$type": "color",
         "$description": ""
       },
       "focused": {
-        "$value": "{accent.100}",
+        "$value": "{accent.700}",
         "$type": "color",
         "$description": ""
       },
       "disabled": {
-        "$value": "{pinkgray.100}",
+        "$value": "{neutral.800}",
         "$type": "color",
         "$description": ""
       }
     },
     "text": {
       "default": {
-        "$value": "{accent.700}",
+        "$value": "{accent.300}",
         "$type": "color",
         "$description": ""
       },
       "focused": {
-        "$value": "{accent.600}",
+        "$value": "{accent.200}",
         "$type": "color",
         "$description": ""
       },
@@ -220,7 +220,7 @@
         "$description": ""
       },
       "pressed": {
-        "$value": "{accent.600}",
+        "$value": "{accent.100}",
         "$type": "color",
         "$description": ""
       }
@@ -259,12 +259,12 @@
         "$description": ""
       },
       "default": {
-        "$value": "{accent.600}",
+        "$value": "{accent.400}",
         "$type": "color",
         "$description": ""
       },
       "disabled": {
-        "$value": "{pinkgray.400}",
+        "$value": "{neutral.600}",
         "$type": "color",
         "$description": ""
       },
@@ -274,7 +274,7 @@
         "$description": ""
       },
       "focused": {
-        "$value": "{accent.400}",
+        "$value": "{accent.300}",
         "$type": "color",
         "$description": ""
       }
@@ -282,7 +282,7 @@
   },
   "input": {
     "text": {
-      "$value": "{neutral.500}",
+      "$value": "{neutral.300}",
       "$type": "color",
       "$description": ""
     },
@@ -297,7 +297,7 @@
       "$description": ""
     },
     "border": {
-      "$value": "{neutral.700}",
+      "$value": "{neutral.500}",
       "$type": "color",
       "$description": ""
     }
@@ -314,29 +314,29 @@
       "$description": ""
     },
     "focused": {
-      "$value": "{accent.600}",
+      "$value": "{accent.300}",
       "$type": "color",
       "$description": ""
     },
     "pressed": {
-      "$value": "{accent.800}",
+      "$value": "{accent.200}",
       "$type": "color",
       "$description": ""
     }
   },
   "layerTwo": {
     "background": {
-      "$value": "{neutral.200}",
+      "$value": "{neutral.700}",
       "$type": "color",
       "$description": ""
     },
     "border": {
-      "$value": "{neutral.300}",
+      "$value": "{neutral.500}",
       "$type": "color",
       "$description": ""
     },
     "text": {
-      "$value": "{neutral.800}",
+      "$value": "{neutral.200}",
       "$type": "color",
       "$description": ""
     },
