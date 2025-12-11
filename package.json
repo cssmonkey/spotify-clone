@@ -12,6 +12,7 @@
     "build-storybook": "storybook build",
     "playwright:install": "npx playwright install --with-deps",
     "e2e": "npx playwright test",
+    "e2e:ui": "npx playwright test --ui",
     "build:design-tokens": "style-dictionary build"
   },
   "dependencies": {
