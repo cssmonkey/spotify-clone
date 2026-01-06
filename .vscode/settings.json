@@ -1,7 +1,25 @@
 {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "prettier.prettier-vscode",
-    "editor.quickSuggestions": {
-        "strings": true
-    }
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "prettier.prettier-vscode",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "prettier.prettier-vscode"
+  }
 }

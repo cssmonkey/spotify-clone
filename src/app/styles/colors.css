@@ -1,0 +1,51 @@
+:root {
+  /* Spotify Brand Colors */
+  --spotify-green: #1ed760;
+  --spotify-green-pressed: #169c46;
+  --spotify-black: #000000;
+  --spotify-white: #ffffff;
+
+  /* Backgrounds */
+  --background-base: #121212;
+  --background-highlight: #1a1a1a;
+  --background-press: #000000;
+  --background-elevated-base: #242424;
+  --background-elevated-highlight: #2a2a2a;
+  --background-elevated-press: #000000;
+  --background-tinted-base: rgba(255, 255, 255, 0.07);
+  --background-tinted-highlight: rgba(255, 255, 255, 0.1);
+  --background-tinted-press: rgba(255, 255, 255, 0.04);
+  --background-unsafe-for-small-text-base: #121212;
+  --background-unsafe-for-small-text-highlight: #121212;
+  --background-unsafe-for-small-text-press: #121212;
+
+  /* Text */
+  --text-base: #ffffff;
+  --text-subdued: #a7a7a7;
+  --text-bright-accent: #1ed760;
+  --text-negative: #f15e6c;
+  --text-warning: #ffa42b;
+  --text-positive: #1ed760;
+  --text-announcement: #3d91f4;
+
+  /* Essential */
+  --essential-base: #ffffff;
+  --essential-subdued: #727272;
+  --essential-bright-accent: #1ed760;
+  --essential-negative: #e91429;
+  --essential-warning: #ffa42b;
+  --essential-positive: #1ed760;
+  --essential-announcement: #0d72ea;
+
+  /* Decorative */
+  --decorative-subdued: #292929;
+  --decorative-muted: rgba(255, 255, 255, 0.1);
+
+  /* Borders */
+  --border-default: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Assuming transparent dividers */
+}

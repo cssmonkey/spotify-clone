@@ -1,0 +1,125 @@
+/* colors */
+:root {
+  --blue-100: #bee1ff;
+  --blue-200: #81ccff;
+  --blue-300: #00b4f8;
+  --blue-400: #0094d4;
+  --blue-500: #087eb4;
+  --blue-600: #045982;
+  --blue-700: #024567;
+  --blue-800: #083550;
+  --blue-900: #00263d;
+  --blue-950: #00101d;
+  --blue-050: #e4f2ff;
+
+  --green-100: #d2f9db;
+  --green-200: #9af2ae;
+  --green-300: #74d289;
+  --green-400: #57b56b;
+  --green-500: #439c57;
+  --green-600: #236c35;
+  --green-700: #175428;
+  --green-800: #0e401d;
+  --green-900: #072f16;
+  --green-950: #031809;
+  --green-050: #f3fef6;
+
+  --red-100: #ffebea;
+  --red-200: #ffd4d3;
+  --red-300: #ffa6a7;
+  --red-400: #fb7b7c;
+  --red-500: #f54e56;
+  --red-600: #bd122d;
+  --red-700: #950924;
+  --red-800: #75001d;
+  --red-900: #580019;
+  --red-950: #32000a;
+  --red-050: #fffaf9;
+
+  --yellow-100: #fdf6b1;
+  --yellow-200: #faeb88;
+  --yellow-300: #f8d35c;
+  --yellow-400: #dba945;
+  --yellow-500: #b78030;
+  --yellow-600: #85541f;
+  --yellow-700: #693f17;
+  --yellow-800: #53300e;
+  --yellow-900: #3e2207;
+  --yellow-950: #290a03;
+  --yellow-050: #fdffd5;
+
+  --gray-100: #e6e6e6;
+  --gray-200: #c6c6c6;
+  --gray-300: #828282;
+  --gray-400: #707070;
+  --gray-500: #656565;
+  --gray-600: #4a4a4a;
+  --gray-700: #3c3c3c;
+  --gray-800: #323232;
+  --gray-900: #252525;
+  --gray-950: #161616;
+  --gray-050: #f8f8f8;
+
+  --black: var(--gray-950);
+  --white: var(--gray-050);
+
+  --text-color-accent: var(--green-200);
+  --text-color-negative: var(--red-500);
+  --text-color-warning: var(--yellow-300);
+  --text-color-announcement: var(--blue-300);
+
+  --button-background-color-primary: hsl(
+    from var(--green-200) h s calc(l - 12)
+  );
+  --button-background-color-primary-hover: var(--green-200);
+  --button-text-color-primary: var(--green-950);
+  --button-text-color-primary-hover: var(--green-950);
+  --button-background-color-secondary: var(--gray-050);
+  --button-background-color-secondary-hover: var(--gray-100);
+}
+
+/* light mode colors */
+:root {
+  --background-color: var(--white);
+  --foreground-color: var(--blue-950);
+}
+
+/* dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: var(--blue-950);
+    --foreground-color: var(--white);
+  }
+}
+
+/* typography and spacing scale */
+:root {
+  --font-size: 1rem; /* 16px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --radius: 8px;
+  --radius-sm: 6px;
+  --radius-lg: 10px;
+  --radius-xl: 16px;
+  --spacing: 0.25rem; /* 4px */
+  --spacing-1: var(--spacing);
+  --spacing-2: calc(2 * var(--spacing));
+  --spacing-3: calc(3 * var(--spacing));
+  --spacing-4: calc(4 * var(--spacing));
+  --spacing-5: calc(5 * var(--spacing));
+  --spacing-6: calc(6 * var(--spacing));
+  --spacing-7: calc(7 * var(--spacing));
+  --spacing-8: calc(8 * var(--spacing));
+  --spacing-9: calc(9 * var(--spacing));
+  --spacing-10: calc(10 * var(--spacing));
+}
+
+:root {
+  --breakpoint-3xl: 1680; /** Very large screens/viewports, large desktops. */
+  --breakpoint-lg: 992; /** Medium screens/viewports, tablets in portrait. */
+  --breakpoint-2xl: 1440; /** Large screens/viewports, laptops, small desktops. */
+  --breakpoint-xs: 320; /** Small screens/viewports, small mobile devices. */
+  --breakpoint-md: 768; /** Medium screens/viewports, large mobile devices, tablets. */
+  --breakpoint-sm: 360; /** Small screens/viewports, larger mobile devices. */
+  --breakpoint-xl: 1200; /** Large screens/viewports, landscape tablets, laptops. */
+}

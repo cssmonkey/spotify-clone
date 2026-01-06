@@ -300,115 +300,137 @@
   --minor-second: 1.067rem; /** Used as a multiplier for dimensions for a low contrast proportional scale. */
   --minor-third: 1.2rem; /** Used as a multiplier for dimensions for a medium contrast proportional scale. */
   --density: 1.25rem; /** For a comfortable density, choose a medium-contrast scale. */
-  --modular-xs: 8rem*1.25rem*1.25rem*1.25rem;
-  --modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --modular-3xs: 8rem*1.25rem;
-  --modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --modular-2xs: 8rem*1.25rem*1.25rem;
-  --linear-0: 8rem*0;
-  --linear-100: 8rem*1;
-  --linear-150: 8rem*1.5;
-  --linear-200: 8rem*2;
-  --linear-250: 8rem*2.5;
-  --linear-300: 8rem*3;
-  --linear-400: 8rem*4;
-  --linear-500: 8rem*5;
-  --linear-800: 8rem*8;
-  --linear-050: 8rem*0.5;
-  --linear-075: 8rem*.75;
-  --linear-025: 8rem*0.25;
+  --modular-xs: 8rem * 1.25rem * 1.25rem * 1.25rem;
+  --modular-md: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem;
+  --modular-3xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem * 1.25rem;
+  --modular-3xs: 8rem * 1.25rem;
+  --modular-2xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem;
+  --modular-lg: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem;
+  --modular-xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem;
+  --modular-sm: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem;
+  --modular-2xs: 8rem * 1.25rem * 1.25rem;
+  --linear-0: 8rem * 0;
+  --linear-100: 8rem * 1;
+  --linear-150: 8rem * 1.5;
+  --linear-200: 8rem * 2;
+  --linear-250: 8rem * 2.5;
+  --linear-300: 8rem * 3;
+  --linear-400: 8rem * 4;
+  --linear-500: 8rem * 5;
+  --linear-800: 8rem * 8;
+  --linear-050: 8rem * 0.5;
+  --linear-075: 8rem * 0.75;
+  --linear-025: 8rem * 0.25;
   --size-modular-none: 0; /** Adjusts to chosen density. */
-  --size-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --size-linear-100: 8rem*1; /** Remains the same regardless of density. */
-  --size-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
-  --size-linear-200: 8rem*2; /** Remains the same regardless of density. */
-  --size-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
-  --size-linear-300: 8rem*3; /** Remains the same regardless of density. */
-  --size-linear-400: 8rem*4; /** Remains the same regardless of density. */
-  --size-linear-none: 8rem*0; /** Remains the same regardless of density. */
-  --size-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
-  --size-linear-075: 8rem*.75; /** Remains the same regardless of density. */
-  --size-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
+  --size-modular-xs: 8rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-md: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-3xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-3xs: 8rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-2xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-lg: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem; /** Adjusts to chosen density. */
+  --size-modular-xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-sm: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-modular-2xs: 8rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --size-linear-100: 8rem * 1; /** Remains the same regardless of density. */
+  --size-linear-150: 8rem * 1.5; /** Remains the same regardless of density. */
+  --size-linear-200: 8rem * 2; /** Remains the same regardless of density. */
+  --size-linear-250: 8rem * 2.5; /** Remains the same regardless of density. */
+  --size-linear-300: 8rem * 3; /** Remains the same regardless of density. */
+  --size-linear-400: 8rem * 4; /** Remains the same regardless of density. */
+  --size-linear-none: 8rem * 0; /** Remains the same regardless of density. */
+  --size-linear-050: 8rem * 0.5; /** Remains the same regardless of density. */
+  --size-linear-075: 8rem * 0.75; /** Remains the same regardless of density. */
+  --size-linear-025: 8rem * 0.25; /** Remains the same regardless of density. */
   --radius-modular-none: 0;
-  --radius-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-xs: 8rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-md: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-3xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-3xs: 8rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-2xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-lg: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem; /** Adjusts to chosen density. */
   --radius-modular-full: 9999;
-  --radius-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --radius-linear-100: 8rem*1; /** Remains the same regardless of density. */
-  --radius-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
-  --radius-linear-200: 8rem*2; /** Remains the same regardless of density. */
-  --radius-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
-  --radius-linear-300: 8rem*3; /** Remains the same regardless of density. */
-  --radius-linear-400: 8rem*4; /** Remains the same regardless of density. */
-  --radius-linear-none: 8rem*0; /** Remains the same regardless of density. */
-  --radius-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
+  --radius-modular-xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-sm: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-modular-2xs: 8rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --radius-linear-100: 8rem * 1; /** Remains the same regardless of density. */
+  --radius-linear-150: 8rem * 1.5; /** Remains the same regardless of density. */
+  --radius-linear-200: 8rem * 2; /** Remains the same regardless of density. */
+  --radius-linear-250: 8rem * 2.5; /** Remains the same regardless of density. */
+  --radius-linear-300: 8rem * 3; /** Remains the same regardless of density. */
+  --radius-linear-400: 8rem * 4; /** Remains the same regardless of density. */
+  --radius-linear-none: 8rem * 0; /** Remains the same regardless of density. */
+  --radius-linear-050: 8rem * 0.5; /** Remains the same regardless of density. */
   --radius-linear-full: 9999; /** Use to create circular shapes. */
-  --radius-linear-075: 8rem*.75; /** Remains the same regardless of density. */
-  --radius-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
+  --radius-linear-075: 8rem * 0.75; /** Remains the same regardless of density. */
+  --radius-linear-025: 8rem * 0.25; /** Remains the same regardless of density. */
   --space-modular-none: 0;
-  --space-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --space-linear-100: 8rem*1; /** Remains the same regardless of density. */
-  --space-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
-  --space-linear-200: 8rem*2; /** Remains the same regardless of density. */
-  --space-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
-  --space-linear-300: 8rem*3; /** Remains the same regardless of density. */
-  --space-linear-400: 8rem*4; /** Remains the same regardless of density. */
-  --space-linear-none: 8rem*0; /** Remains the same regardless of density. */
-  --space-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
-  --space-linear-075: 8rem*.75; /** Remains the same regardless of density. */
-  --space-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
-  --font-size-modular-xs: 8rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-md: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-3xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-3xs: 8rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-2xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-lg: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-xl: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-sm: 8rem*1.25rem*1.25rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-modular-2xs: 8rem*1.25rem*1.25rem; /** Adjusts to chosen density. */
-  --font-size-linear-100: 8rem*1; /** Remains the same regardless of density. */
-  --font-size-linear-150: 8rem*1.5; /** Remains the same regardless of density. */
-  --font-size-linear-200: 8rem*2; /** Remains the same regardless of density. */
-  --font-size-linear-250: 8rem*2.5; /** Remains the same regardless of density. */
-  --font-size-linear-300: 8rem*3; /** Remains the same regardless of density. */
-  --font-size-linear-400: 8rem*4; /** Remains the same regardless of density. */
-  --font-size-linear-050: 8rem*0.5; /** Remains the same regardless of density. */
-  --font-size-linear-075: 8rem*.75; /** Remains the same regardless of density. */
-  --font-size-linear-025: 8rem*0.25; /** Remains the same regardless of density. */
-  --body: 8rem*1.25rem*1.25rem*1.25rem;
-  --label: 8rem*1.25rem*1.25rem*1.25rem;
-  --heading-level-three: 8rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --heading-level-two: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --heading-level-one: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --space-modular-xs: 8rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-md: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-3xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-3xs: 8rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-2xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-lg: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem; /** Adjusts to chosen density. */
+  --space-modular-xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-sm: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-modular-2xs: 8rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --space-linear-100: 8rem * 1; /** Remains the same regardless of density. */
+  --space-linear-150: 8rem * 1.5; /** Remains the same regardless of density. */
+  --space-linear-200: 8rem * 2; /** Remains the same regardless of density. */
+  --space-linear-250: 8rem * 2.5; /** Remains the same regardless of density. */
+  --space-linear-300: 8rem * 3; /** Remains the same regardless of density. */
+  --space-linear-400: 8rem * 4; /** Remains the same regardless of density. */
+  --space-linear-none: 8rem * 0; /** Remains the same regardless of density. */
+  --space-linear-050: 8rem * 0.5; /** Remains the same regardless of density. */
+  --space-linear-075: 8rem * 0.75; /** Remains the same regardless of density. */
+  --space-linear-025: 8rem * 0.25; /** Remains the same regardless of density. */
+  --font-size-modular-xs: 8rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-md: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-3xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-3xs: 8rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-2xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-lg: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-xl: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-sm: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-modular-2xs: 8rem * 1.25rem * 1.25rem; /** Adjusts to chosen density. */
+  --font-size-linear-100: 8rem * 1; /** Remains the same regardless of density. */
+  --font-size-linear-150: 8rem * 1.5; /** Remains the same regardless of density. */
+  --font-size-linear-200: 8rem * 2; /** Remains the same regardless of density. */
+  --font-size-linear-250: 8rem * 2.5; /** Remains the same regardless of density. */
+  --font-size-linear-300: 8rem * 3; /** Remains the same regardless of density. */
+  --font-size-linear-400: 8rem * 4; /** Remains the same regardless of density. */
+  --font-size-linear-050: 8rem * 0.5; /** Remains the same regardless of density. */
+  --font-size-linear-075: 8rem * 0.75; /** Remains the same regardless of density. */
+  --font-size-linear-025: 8rem * 0.25; /** Remains the same regardless of density. */
+  --body: 8rem * 1.25rem * 1.25rem * 1.25rem;
+  --label: 8rem * 1.25rem * 1.25rem * 1.25rem;
+  --heading-level-three: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem;
+  --heading-level-two: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem;
+  --heading-level-one: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem;
   --heading-text: #e4ded9;
-  --display-subtitle: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
-  --display-title: 8rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem*1.25rem;
+  --display-subtitle: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem;
+  --display-title: 8rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem * 1.25rem *
+    1.25rem * 1.25rem * 1.25rem;
   --accent-100: #f5ecff;
   --accent-200: #e8d7ff;
   --accent-300: #cfb0ff;

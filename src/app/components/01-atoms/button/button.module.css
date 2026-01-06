@@ -1,3 +1,62 @@
 button.btn {
-  border: 1px solid red;
+  /* Reset/Base Variables */
+  --button-background-color: var(--button-background-color-primary);
+  --button-background-color-hover: var(--button-background-color-primary-hover);
+  --button-text-color: var(--button-text-color-primary);
+  --button-text-color-hover: var(--button-text-color-primary-hover);
+
+  /* Core Styles */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+  margin: 0;
+  padding-block: var(--spacing-3);
+  padding-inline: var(--spacing-8);
+  min-height: 48px; /* Spotify buttons are often 48px tall */
+
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  border: none;
+  border-radius: 9999px; /* Pill shape */
+
+  font-family: inherit; /* inherit from body (circular/etc if set) */
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: none; /* Spotify doesn't force uppercase usually, stick to input */
+
+  /* Animation/Transition */
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.4, 1);
+  will-change: transform;
+
+  /* Tap highlight removal */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Hover State */
+button.btn:hover {
+  background-color: var(--button-background-color-hover);
+  color: var(--button-text-color-hover);
+}
+
+/* Active/Pressed State */
+button.btn:active {
+  opacity: 0.7; /* Slight dim */
+}
+
+/* Focus Visible */
+button.btn:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}
+
+/* Disabled State */
+button.btn:disabled,
+button.btn[aria-disabled='true'] {
+  background-color: var(--gray-600, #555); /* Fallback */
+  color: var(--gray-300, #ccc);
+  cursor: not-allowed;
+  transform: none;
 }

@@ -1,31 +1,39 @@
-import type { ComponentProps } from 'react';
-import React from 'react';
+'use client';
+
 import clsx from 'clsx';
 
 import styles from './button.module.css';
 
-interface ButtonProps extends ComponentProps<'button'> {
-  variant?: 'primary' | 'secondary' | 'tertiary';
+import {
+  Button as RACButton,
+  ButtonProps as RACButtonProps,
+  composeRenderProps,
+} from 'react-aria-components';
+
+interface ButtonProps extends RACButtonProps {
+  /**
+   * The visual style of the button (Vanilla CSS implementation specific).
+   * @default 'primary'
+   */
+  variant?: 'primary' | 'secondary' | 'quiet';
   size?: 'small' | 'medium' | 'large';
-  disabled?: boolean;
-  icon?: React.ReactNode;
-  iconPosition?: 'prefix' | 'suffix';
-  text: string;
 }
 
-export const Button: React.FC<ButtonProps> = ({
-  variant = 'primary',
-  size,
-  disabled,
-  className = '',
-  icon,
-  iconPosition = 'prefix',
-  text,
-  ...buttonProps
-}) => {
+export function Button({
+  className,
+  children,
+  variant,
+  ...props
+}: ButtonProps) {
   return (
-    <button className={clsx(styles.btn, className)} {...buttonProps}>
-      <span className={styles.btnText}>{text}</span>
-    </button>
+    <RACButton
+      {...props}
+      className={clsx(styles.btn, className)}
+      data-variant={variant || 'primary'}
+    >
+      {composeRenderProps(children, (children, { isPending }) => (
+        <>{!isPending && children}</>
+      ))}
+    </RACButton>
   );
-};
+}
