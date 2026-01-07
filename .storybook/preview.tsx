@@ -1,6 +1,12 @@
 import type { Preview } from '@storybook/nextjs-vite';
+import { Figtree } from 'next/font/google';
 
 import '../src/app/styles/globals.css';
+
+const figtree = Figtree({
+  variable: '--font-figtree',
+  subsets: ['latin'],
+});
 
 const preview: Preview = {
   parameters: {
@@ -18,6 +24,13 @@ const preview: Preview = {
       test: 'todo',
     },
   },
+  decorators: [
+    (Story) => (
+      <div className={figtree.className}>
+        <Story />
+      </div>
+    ),
+  ],
 };
 
 export default preview;
